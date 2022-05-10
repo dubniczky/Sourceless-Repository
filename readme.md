@@ -59,3 +59,9 @@ Loading sylesheets using the link tag is not an RFC standard.
 |Edge|`101.0`|❌|
 |Brave|`1.38`|❌|
 |Safari|`15.4`|❌|
+
+## Screenshots
+
+Loaded site | Source
+|:-:|:-:|
+![Website](/assets/screenshots/page.png) | ![Website source](/assets/screenshots/source.png)
