@@ -35,6 +35,13 @@ When loading a webpage with no content or missing `html`, `head` or `body` tags,
 1. `make run` start the server.
 1. Open browser: [http://127.0.0.1:8080](http://127.0.0.1:8080)
 
+### Container
+
+Docker has to be installed and running on your system.
+
+1. `docker build -t srclessweb .` build container.
+1. `docker run -p8080:8080 srclessweb` run container and expose to port 8080.
+
 ## Attributions
 
 - Flower image: [pexels](https://www.pexels.com/photo/yellow-flower-on-white-surface-11431628/)
