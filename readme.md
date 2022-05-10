@@ -6,6 +6,14 @@ If you open the page source `Ctrl + u`, it will be empty, also selecting the pag
 
 [[_TOC_]]
 
+## How It Works
+
+The HTTP standard has a `Link` header attribute for linking to other websites or resources. These links may have properties describing the relationship to the given resource.
+
+Some browsers support this relationship to be: `stylesheet`. In which case they will be loaded and applied to the current page. By using a custom FastAPI server and manually setting this header, we are able to make the browser load the stylesheet without explicit links in the html code.
+
+When loading a webpage with no content or missing `html`, `head` or `body` tags, browsers will create these automatically. This can be used to apply styling to the `::before` and `::after` elements of the head DOM element. Styling used: [css](/static/style.css)
+
 ## Software Requirements
 
 1. Python
