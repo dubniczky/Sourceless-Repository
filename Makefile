@@ -14,7 +14,7 @@ params :=
 caches := __pycache__/
 
 # Run even if a file or folder with the same name exists
-.PHONY: clean venv install run generate lock
+.PHONY: clean venv install run generate lock prod
 
 # Run program from virtual environment
 # Create virtual env if one does not exist, update requirements if changed
@@ -54,6 +54,15 @@ generate:
 	@touch $(deps_name)
 	@touch $(lock_name)
 	@$(MAKE) -s venv
+
+prod: $(lock_name)
+	@echo "Deploying for production.."
+	@echo "Installing dependencies from $(lock_name)"
+	@pip install -r $(lock_name)
+	@echo "Done."
+
+runprod: $(lock_name)
+	@$(pybin) $(main) $(params)
 
 # Runs the linter
 lint:
