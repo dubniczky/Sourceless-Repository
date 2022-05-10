@@ -51,5 +51,4 @@ Loading sylesheets using the link tag is not an RFC standard.
 |Chrome|`101.0`|❌|
 |Edge|`101.0`|❌|
 |Brave|`1.38`|❌|
-|Brave|`1.38`|❌|
 |Safari|`15.4`|❌|
