@@ -1,6 +1,8 @@
 # Python
 .venv/
+.pytest_cache/
 __pycache__/
+
 # Visual Studio Code
 .vscode/*
 !.vscode/launch.json
