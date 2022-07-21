@@ -4,7 +4,11 @@ This website displays text content, image and styling without containing any sou
 
 If you open the page source `Ctrl + u`, it will be empty, also selecting the page components using developer tools will yield empty styling.
 
-[[_TOC_]]
+## Support ❤️
+
+If you find the project useful, please consider supporting, or contributing.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dubniczky)
 
 ## How It Works
 
